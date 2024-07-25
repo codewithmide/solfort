@@ -4,7 +4,11 @@ version = "0.1.0"
 edition = "2021"
 authors = ["codewithmide codewithmide@gmail.com"]
 description = "A CLI wallet for Solana that can generate keypairs, request airdrops, send SOL, and check balances."
-
+license = "MIT"
+repository = "https://github.com/codewithmide/solfort"
+readme = "README.md"
+keywords = ["solana", "blockchain", "wallet", "cli"]
+categories = ["command-line-utilities", "cryptography::cryptocurrencies"]
 
 [dependencies]
 solana-sdk = "1.17"

@@ -2,6 +2,9 @@
 name = "solfort"
 version = "0.1.0"
 edition = "2021"
+authors = ["codewithmide codewithmide@gmail.com"]
+description = "A CLI wallet for Solana that can generate keypairs, request airdrops, send SOL, and check balances."
+
 
 [dependencies]
 solana-sdk = "1.17"
@@ -9,3 +12,5 @@ solana-client = "1.17"
 solana-clap-utils = "1.17"
 clap = { version = "4.4", features = ["derive"] }
 anyhow = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"

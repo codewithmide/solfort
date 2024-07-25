@@ -3922,6 +3922,8 @@ version = "0.1.0"
 dependencies = [
  "anyhow",
  "clap 4.5.10",
+ "serde",
+ "serde_json",
  "solana-clap-utils",
  "solana-client",
  "solana-sdk",
